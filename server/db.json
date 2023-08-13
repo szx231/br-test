@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "operators": ["operator1", "operator2", "operator3"],
+      "minutes": [200, 350, 600, 650],
+      "Internet": [5, 15, 30, 35],
+      "wifi": ["Аренда 99 ₽/мес.", "Выкупить 2 600 ₽"],
+      "social": {
+        "facebook": 20,
+        "vk": 20,
+        "ok": 20,
+        "instagramm": 60,
+        "tikktok": 60
+      }
+    }
+  ]
+}
