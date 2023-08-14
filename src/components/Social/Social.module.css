@@ -1,0 +1,53 @@
+.title {
+  color: var(--black, #000);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 32px */
+  letter-spacing: -0.96px;
+  margin-bottom: 2.5rem;
+}
+
+.listSocial {
+  display: flex;
+  gap: 1.875rem;
+  list-style: none;
+  padding: 0;
+}
+
+.describe {
+  color: var(--black, #000);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 24px */
+  letter-spacing: -0.72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unSelected {
+  filter: grayscale(100%);
+}
+
+.selected {
+  border-radius: 45px 45px 15px 15px;
+  background: var(--white, #FFF) !important;
+}
+
+.itemWrapper {
+  border: none;
+  cursor: pointer;
+  display: grid;
+  gap: .938rem;
+  padding: .938rem;
+  background-color: transparent;
+}

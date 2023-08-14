@@ -1,0 +1,66 @@
+.custom-checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+.custom-checkbox-checkmark {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-accent);
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.custom-checkbox-checkmark::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox:checked + .custom-checkbox-checkmark::after {
+  display: block;
+  content: '\2714'; /* Символ "галочки" */
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin-bottom: 2.5rem;
+  color: var(--black, #000);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.06rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.item {
+  color: var(--black, #000);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  letter-spacing: -0.24px;
+}

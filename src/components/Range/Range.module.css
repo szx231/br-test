@@ -1,0 +1,78 @@
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.875rem;
+}
+
+.main {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+#slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 3px;
+  border-radius: 5px;
+  background: var(--gray, #B8C6CF);
+}
+
+/* Design slider button */
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 3.75rem;
+  height: 3.75rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
+#selector {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: absolute;
+  top: -65%;
+  left: -1%;
+  transform: translateX(50%, -1%);
+  z-index: 2;
+}
+
+#progressBar {
+  width: 0%;
+  height: 10px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+}
+
+.listItem {
+  color: var(--black, #000);
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 24px */
+  letter-spacing: -0.045rem;
+}
+
+.wrapper {
+  display: grid;
+}
+
+.title {
+  color: var(--black, #000);
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 32px */
+  letter-spacing: 0.06rem;
+  margin-bottom: 2.5rem;
+}
