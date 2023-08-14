@@ -12,11 +12,10 @@ export function getData() {
     return axios
       .get('http://localhost:3002/data')
       .then((response) => response.data)
-      .then(
-        (json) => console.log(json[0], 'json')
+      .then((json) =>
         // We can dispatch many times!
         // Here, we update the app state with the results of the API call.
-        // dispatch(fetchDataSuccess(json.item))
+        dispatch(fetchDataSuccess(json))
       )
       .catch((error) => dispatch(fetchDataFailure(error)));
   };
