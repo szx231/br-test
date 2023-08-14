@@ -5,13 +5,13 @@
       "minutes": [200, 350, 600, 650],
       "Internet": [5, 15, 30, 35],
       "wifi": ["Аренда 99 ₽/мес.", "Выкупить 2 600 ₽"],
-      "social": {
-        "facebook": 20,
-        "vk": 20,
-        "ok": 20,
-        "instagramm": 60,
-        "tikktok": 60
-      }
+      "social": [
+        { "name": "facebook", "value": 20 },
+        { "name": "vk", "value": 20 },
+        { "name": "ok", "value": 20 },
+        { "name": "instagramm", "value": 60 },
+        { "name": "tiktok", "value": 60 }
+      ]
     }
   ]
 }

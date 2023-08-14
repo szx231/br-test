@@ -6,7 +6,7 @@ import { Range } from './components/Range';
 import { CheckBox } from './components/CheckBox';
 import darkButtonImage from '../public/darkBtn.svg';
 import blueButtonImage from '../public/blueBtn.svg';
-import { useAppDispatch, useAppSelector } from './hooks';
+import { useAppDispatch, useAppSelector } from './store/hooks';
 import { getData } from './store/getData/thunk';
 import { selectData } from './store/getData/selectors';
 import { Social } from './components/Social';
